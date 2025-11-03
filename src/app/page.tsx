@@ -171,7 +171,7 @@ function TargetCpaDashboard() {
                   <strong className="text-blue-600">Averages Calculation:</strong>
                   <p className="text-xs text-muted-foreground mt-1">
                     <strong className="text-green-600">Important:</strong> All averages are calculated across ALL matching data in the database,
-                    not just the paginated view. This ensures accurate statistics regardless of which page you're viewing.
+                    not just the paginated view. This ensures accurate statistics regardless of which page you&apos;re viewing.
                   </p>
                   <p className="text-xs text-muted-foreground mt-1">
                     Calculated in SQL using <code className="bg-white dark:bg-slate-800 px-1 rounded">AVG()</code> function:
@@ -182,7 +182,7 @@ function TargetCpaDashboard() {
                     <li><strong>• Avg Difference %:</strong> <code className="bg-white dark:bg-slate-800 px-1 rounded">AVG(difference_percentage)</code> - only averages campaigns where both pointers exist</li>
                   </ul>
                   <p className="text-xs text-muted-foreground mt-2">
-                    <strong>Impact of "Only Both Strategies" toggle:</strong> When enabled, the WHERE clause filters to campaigns with both pointers
+                    <strong>Impact of &quot;Only Both Strategies&quot; toggle:</strong> When enabled, the WHERE clause filters to campaigns with both pointers
                     before calculating averages, which can significantly change the results since it excludes campaigns with only one pointer type.
                   </p>
                 </div>
@@ -296,8 +296,8 @@ function TargetCpaDashboard() {
                       <strong className="text-amber-700 dark:text-amber-400">WHERE 1=1</strong>
                       <p className="text-muted-foreground">
                         This is a common SQL pattern that makes it easier to dynamically add conditions.
-                        It's always true, so additional AND conditions can be appended without worrying about syntax.
-                        Without it, we'd need complex logic to determine if we need WHERE or AND.
+                        It&apos;s always true, so additional AND conditions can be appended without worrying about syntax.
+                        Without it, we&apos;d need complex logic to determine if we need WHERE or AND.
                       </p>
                     </div>
                     <div>

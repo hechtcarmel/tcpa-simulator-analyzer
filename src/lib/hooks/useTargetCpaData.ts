@@ -6,6 +6,7 @@ interface TargetCpaDataResponse {
   metadata: {
     total_rows: number;
     query_time_ms: number;
+    sql?: string;
     filters_applied: Record<string, boolean>;
   };
   cached?: boolean;
